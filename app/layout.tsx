@@ -5,11 +5,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Chat App',
-  description: 'A simple application created by Marko Tasic 😎'
+  description: 'A simple application created by Marko Tasic 😎',
 }
 
 const RootLayout = ({
-  children
+  children,
 }: Readonly<{ children: React.ReactNode }>): JSX.Element => {
   return (
     <html lang="en">
